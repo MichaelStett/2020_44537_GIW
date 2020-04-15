@@ -6,7 +6,6 @@ public class Door : MonoBehaviour
 {
     void OnTriggerEnter(Collider other)
     {
-
         if (other.tag == "Player")
         {
             if (CollectKeys.key == true)
